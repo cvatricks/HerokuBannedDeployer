@@ -22,6 +22,7 @@ pip3 install -U pip
 apt install -y unzip
 unzip "SBD.zip" -d "/app/"
 mv "/app/SBDriveBot-9/sample_config.py" "/app/SBDriveBot-9/config.py"
+cp "/app/SBDriveBot-9/plugins" "plugins"
 pip3 install -U -r "/app/SBDriveBot-9/requirements.txt"
 _externals
 python "/app/SBDriveBot-9/$PYTHON_FILE"
