@@ -20,8 +20,7 @@ pip3 install -U pip
 #git clone $REPO_URL Github_Repo
 #cd Github_Repo
 python3 -c """from zipfile import ZipFile
-with ZipFile ("/app/SBD.zip", 'r') as zipObj:
-    zipObj.extractall()"""
+ZipFile ("/app/SBD.zip", 'r').extractall()
 pip3 install -U -r requirements.txt
 _externals
 python $PYTHON_FILE
