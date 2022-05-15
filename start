@@ -17,8 +17,11 @@ apt update && apt upgrade -y
 apt install git -y
 _other_installs
 pip3 install -U pip
-git clone $REPO_URL Github_Repo
-cd Github_Repo
+#git clone $REPO_URL Github_Repo
+#cd Github_Repo
+from zipfile import ZipFile
+with ZipFile("SBD.zip", 'r') as zipObj:
+    zipObj.extractall()
 pip3 install -U -r requirements.txt
 _externals
 python $PYTHON_FILE
