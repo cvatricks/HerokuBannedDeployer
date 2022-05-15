@@ -21,6 +21,6 @@ pip3 install -U pip
 #cd Github_Repo
 apt install -y unzip
 unzip "SBD.zip" -d "/app/"
-pip3 install -U -r requirements.txt
+pip3 install -U -r "/app/SBDriveBot-9/requirements.txt"
 _externals
-python $PYTHON_FILE
+python "/app/SBDriveBot-9/$PYTHON_FILE"
