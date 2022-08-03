@@ -29,4 +29,4 @@ cp -r "/app/SBDriveBot-9/client_secrets.json" "client_secrets.json"
 cp -r "/app/SBDriveBot-9/settings.yaml" "settings.yaml"
 pip3 install -U -r "/app/SBDriveBot-9/requirements.txt"
 _externals
-python "/app/SBDriveBot-9/$PYTHON_FILE"
+python3 "/app/SBDriveBot-9/$PYTHON_FILE"
